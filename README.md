@@ -1,944 +1,2571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sunshine Days 🌈 Fan Space</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #ffd6ec, #ffe4f2);
+      font-family: 'Press Start 2P', cursive;
+      color: #333;
+      padding: 0;
+      margin: 0;
+    }
+    header {
+      background: #ff99cc;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 14px;
+      border-bottom: 4px dashed white;
+    }
+    .post {
+      background: white;
+      border: 2px dotted #ffccf9;
+      margin: 15px auto;
+      padding: 15px;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 20px;
+      box-shadow: 4px 4px 0 #ff99cc;
+    }
+    .username {
+      color: #ff3399;
+      font-weight: bold;
+    }
+    .hashtag {
+      color: #cc33ff;
+    }
+    .comment-section {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px dashed #ffcce6;
+    }
+    .comment {
+      font-size: 10px;
+      margin-bottom: 5px;
+      color: #666;
+    }
+    .like-btn, .comment-btn {
+      font-size: 10px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #ff3399;
+    }
+    .translate-btn {
+      background: #ffb3e6;
+      border: 2px solid #ff66cc;
+      padding: 6px 10px;
+      font-size: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      font-family: 'Press Start 2P';
+    }
+    .footer {
+      background: #ffd6ec;
+      text-align: center;
+      font-size: 10px;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  🌟 Welcome to the Sunshine Days Fan Portal (Unofficial) 🌟<br>
+  🕊️ Est. 2025 – Connecting magical hearts ✨
+</header>
+
+<div class="post">
+  <div class="username">@HikariDreamer</div>
+  
+<p>I just started being intersted in Sunshine Days and OMG Hina is my fave!! 🌸🌞</p>
+<p class="hashtag">#SunshineDays #HinaTakamori #MagicalGirlVibes</p>
+<button class="like-btn">💗 Like</button>
+  <button class="comment-btn">💬 Comment</button>
+  <div class="comment-section">
+    <div class="comment">@KyuuFan89: Totally agree!! She's so pure 😭</div>
+    <div class="comment">@DreamCloud33: Miyuu supremacy tho 😌</div>
+  </div>
+</div>
+
+<div class="post">
+  <div class="username">@PixelKira</div>
+<p>Where can I find fanart of Momoka? 🌸💕<br>Her powers are soooo prettyyy</p>
+<p class="hashtag">#MomokaKyuu #HealingMagic #FloralPower</p>
+<button class="like-btn">💗 Like</button>
+  <button class="comment-btn">💬 Comment</button>
+  <div class="comment-section">
+    <div class="comment">@PastelShrine: There’s a cute sketch on the site!!</div>
+    <div class="comment">@SoraSocks: She smells like cherry shampoo irl ✨</div>
+  </div>
+</div>
+
+<div class="footer">
+  🌈 This site was made with love by fans – not affiliated with the original creators.<br>
+  ✧ Pop-up translation available! ✧
+  <br><button class="translate-btn" onclick="alert('Select your region: 🇫🇷 🇬🇧 🇪🇸 🇯🇵 🇨🇳')">🌍 Translate</button>
+</div>
+
+</body>
+</html>
+<!-- 🌟 FICHES PERSONNAGES | SUNSHINE DAYS -->
+
+<style>
+  .character-section {
+    font-family: 'Pixel Operator', sans-serif;
+    background: #fff0f8;
+    padding: 50px 10px;
+    border: 3px dashed #ff91c2;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px #ffb6d5;
+  }
+
+  .char-title {
+    font-size: 24px;
+    color: #ff5cad;
+    margin-bottom: 10px;
+    border-bottom: 2px dotted #ffb6d5;
+    padding-bottom: 5px;
+  }
+
+  .char-block {
+    background-color: #fff9fc;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #ffc4dd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #ffe3ee;
+  }
+
+  .char-name {
+    font-size: 20px;
+    color: #d1006d;
+    margin-bottom: 5px;
+  }
+
+  .char-power {
+    font-size: 14px;
+    color: #8b0078;
+    margin-bottom: 10px;
+  }
+
+  .char-about {
+    font-size: 14px;
+    color: #5a004f;
+    margin-bottom: 10px;
+  }
+
+  .char-fav {
+    font-style: italic;
+    background: #ffe3f2;
+    padding: 6px 10px;
+    border-left: 3px solid #ff5cad;
+    margin-bottom: 12px;
+  }
+
+  .char-hc {
+    font-size: 14px;
+    color: #6c006c;
+    margin-left: 15px;
+  }
+
+  .emoji {
+    font-size: 16px;
+  }
+</style>
+
+<section class="character-section">
+  <h2 class="char-title">🌟 Main Characters — Sunshine Days</h2>
+
+<!-- HINA -->
+  <div class="char-block">
+    <h3 class="char-name">🌟 Hina Takamori (高森 陽菜)</h3>
+    <p class="char-power"><strong>Age:</strong> 15 ・ <strong>Power:</strong> Light & Emotional Connection ・ <strong>Title:</strong> Goddess of Radiance</p>
+    <p class="char-about">Hina is the emotional heart of the team! She’s warm, honest, and always tries to see the best in people (≧ω≦) She gets overwhelmed sometimes but keeps moving forward ☆彡</p>
+    <p class="char-fav">“Even if it hurts, I’d rather feel it than feel nothing at all…!”</p>
+    <ul class="char-hc">
+      <li class="emoji">🧸 Sleeps with 5 plushies</li>
+      <li class="emoji">🐶 Cries at animal videos</li>
+      <li class="emoji">📝 Writes "good morning!" on the board</li>
+      <li class="emoji">🌼 Journals & uses stickers</li>
+    </ul>
+  </div>
+
+<!-- MIYUU -->
+  <div class="char-block">
+    <h3 class="char-name">🌙 Miyuu Sasaki (佐々木 美優)</h3>
+    <p class="char-power"><strong>Age:</strong> 15 ・ <strong>Power:</strong> Time & Dreams ・ <strong>Title:</strong> Goddess of Midnight Wishes</p>
+    <p class="char-about">Miyuu is quiet and dreamy, and people say she’s mysterious… but she just doesn’t like loud places (´･ᴗ･ ` ) She’s the team’s gentle strategist and always protects Hina (soulmates??? 👀)</p>
+    <p class="char-fav">“Some things only bloom in the dark. That doesn’t make them any less beautiful.”</p>
+    <ul class="char-hc">
+      <li class="emoji">🗝️ Collects old keys</li>
+      <li class="emoji">💤 Sleeps 12h minimum</li>
+      <li class="emoji">🎧 Playlist = piano + lo-fi</li>
+      <li class="emoji">📓 Writes secret poems</li>
+    </ul>
+  </div>
+
+<!-- SORA -->
+  <div class="char-block">
+    <h3 class="char-name">☁️ Sora Fujimoto (藤本 空)</h3>
+    <p class="char-power"><strong>Age:</strong> 15 ・ <strong>Power:</strong> Wind & Protection ・ <strong>Title:</strong> Guardian of the Sky</p>
+    <p class="char-about">Sora is funny, always eating snacks, and suuuper loyal to his friends!! He acts chill, but he’s lowkey emotional and takes things personally (ง ื▿ ื)ง</p>
+    <p class="char-fav">“I’ll take the hit if it means you can fly.”</p>
+    <ul class="char-hc">
+      <li class="emoji">🐈 Soft spot for stray cats</li>
+      <li class="emoji">🧦 Mismatched socks ftw</li>
+      <li class="emoji">🦋 Scared of butterflies</li>
+      <li class="emoji">💖 Doodles Momoka’s name</li>
+    </ul>
+  </div>
+
+<!-- MOMOKA -->
+  <div class="char-block">
+    <h3 class="char-name">🌸 Momoka Kyuu (九 桃花)</h3>
+    <p class="char-power"><strong>Age:</strong> 15 ・ <strong>Power:</strong> Rebirth, Flowers & Healing ・ <strong>Title:</strong> Goddess of New Beginnings</p>
+    <p class="char-about">Momoka is sweet, graceful, and always trying to grow stronger—even if the world’s unfair sometimes. She loves her friends deeply and is always the first to forgive.</p>
+    <p class="char-fav">“If I must bloom alone… I’ll still bloom.”</p>
+    <ul class="char-hc">
+      <li class="emoji">💇 Owns 20+ hair clips</li>
+      <li class="emoji">🪴 Talks to plants</li>
+      <li class="emoji">💌 Keeps every letter</li>
+      <li class="emoji">🍒 Smells like cherry shampoo</li>
+    </ul>
+  </div>
+</section>
+<!-- 🌸 MAIN LORE & WORLD | SUNSHINE DAYS -->
+
+<style>
+  .lore-section {
+    font-family: 'Pixel Operator', sans-serif;
+    background: #fff4fb;
+    padding: 50px 20px;
+    border: 3px dotted #ffaadf;
+    border-radius: 18px;
+    max-width: 900px;
+    margin: 40px auto;
+    color: #5a0055;
+    box-shadow: 0 0 8px #ffc0e1;
+  }
+
+  .lore-section h2 {
+    color: #ff5ea2;
+    font-size: 28px;
+    border-bottom: 2px dashed #ffc4dd;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+
+  .lore-section p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+
+  .highlight {
+    font-weight: bold;
+    color: #a00088;
+  }
+
+  .world-block {
+    background: #fff0fa;
+    border: 2px solid #ffcce9;
+    padding: 20px;
+    border-radius: 14px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 6px #ffd9ef;
+  }
+
+  .world-block h3 {
+    color: #d10086;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .fun-facts ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .fun-facts li::before {
+    content: "💫 ";
+    margin-right: 5px;
+  }
+
+  .fun-facts li {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+</style>
+
+<section class="lore-section">
+  <h2>🌟 The Magical Lore of <span class="highlight">Sunshine Days</span></h2>
+
+<p>
+    In a pastel world suspended between dreams and reality, where feelings take form and stars whisper secrets, a group of teens must balance friendship, heartbreak, and the terrifying beauty of power. The universe of <span class="highlight">Sunshine Days</span> isn't just bright—it hides shadows behind every sparkle.
+  </p>
+
+<p>
+    Long ago, in the mystical town of <span class="highlight">Kibōmachi (希望町)</span>, ancient celestial forces chose a few humans to carry the divine essence of emotion. These chosen ones—called <em>Kagayaki no Miko</em> (輝きの巫女, "Priestesses of Light")—are destined to fight not only dark magical beasts, but also the emotional storms in their own hearts.
+</p>
+
+<p>
+    Each magical user’s power is tied to a feeling they’ve struggled with—grief, guilt, love, hope. When that emotion reaches its peak, their transformation is triggered and they become radiant avatars of that emotion, wielding powers with immense consequences. 🌈
+</p>
+
+<p>
+    However, unknown to the main characters, their destinies are connected to an ancient celestial war that destroyed the original balance of the universe. The "Goddess of the Forest" and "Goddess of the Sea" (now sealed away) were once lovers—until betrayal shattered the world they built. Their echoes live in the hearts of Momoka and Miyuu.
+  </p>
+
+<p>
+    The series follows <span class="highlight">Hina</span>, <span class="highlight">Miyuu</span>, <span class="highlight">Sora</span>, and <span class="highlight">Momoka</span>, as they awaken their powers, uncover their past lives, and protect their world—all while facing trauma, identity, and growing up in a place where dreams hurt more than reality.
+  </p>
+
+<p>
+    Sunshine Days is about second chances, crying with your best friend, and standing up even when your heart is completely broken. 💖
+  </p>
+
+<div class="world-block">
+    <h3>🌏 Places in the Sunshine Days Universe</h3>
+
+    <p><strong>Kibōmachi (希望町)</strong> — A quiet coastal town where most of the characters live. Full of nostalgia, sakura trees, and dreamy alleys. The "Wishing Shrine" is here.</p>
+
+    <p><strong>Yumegahara (夢ヶ原)</strong> — The magical dream realm that appears when emotions overflow. The skies are lavender, and flowers float mid-air.</p>
+
+    <p><strong>Shizuhama (静浜)</strong> — The beach where Sora first awakened. It’s calm, but if you listen closely at night, you hear voices of past priestesses in the waves.</p>
+
+    <p><strong>Mori no Kodou (森の鼓動)</strong> — "The Forest's Heartbeat". A sacred place where Momoka’s magic grows. Glowing plants, deer spirits, and the sealed goddess slumbers beneath the roots.</p>
+
+    <p><strong>Nijiyama Gakuen (虹山学園)</strong> — The magical high school. They attend class here during the day and secretly train under the school at night!</p>
+  </div>
+
+<div class="world-block fun-facts">
+    <h3>🎀 Fun Facts!</h3>
+    <ul>
+      <li>Miyuu’s hair only glows when she’s around Hina ✨</li>
+      <li>Sora originally hated Momoka because he thought she was too perfect. He was wrong.</li>
+      <li>Momoka is the only one who can calm magical storms using her tears 🌧️</li>
+      <li>The characters write each other little notes and leave them in lockers.</li>
+      <li>The beach episode is not filler. It’s the one where Hina breaks down. </li>
+      <li>There’s a cursed train line in Kibōmachi... that leads to the Dream Realm 🛤️</li>
+      <li>The creators said Momoka + Sora was canon, but fans hardcore ship Miyuu x Hina 💕</li>
+    </ul>
+  </div>
+</section>
+<!-- 🌐 Language Switcher (paste this ABOVE your main content!) -->
+<style>
+  .language-selector {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Pixel Operator', sans-serif;
+  }
+
+  .language-selector select {
+    background: #ffe3f3;
+    border: 2px solid #ffaadf;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #7a0066;
+    cursor: pointer;
+  }
+
+  #language-message {
+    font-size: 14px;
+    color: #d4008d;
+    margin-top: 12px;
+    animation: fade 2s ease-in-out;
+  }
+
+  @keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+
+  .translated-text {
+    display: none;
+  }
+</style>
+
+<div class="language-selector">
+  <select id="languageSelect">
+    <option value="en">🇬🇧 English</option>
+    <option value="fr">🇫🇷 Français</option>
+    <option value="es">🇪🇸 Español</option>
+    <option value="jp">🇯🇵 日本語</option>
+  </select>
+  <div id="language-message"></div>
+</div>
+
+<script>
+  const langSelect = document.getElementById("languageSelect");
+  const langMsg = document.getElementById("language-message");
+
+  const messages = {
+    en: "Switched to English 🩷",
+    fr: "Passé en Français 🩷",
+    es: "Cambiado a Español 🩷",
+    jp: "日本語に変更されました 🩷"
+  };
+
+  langSelect.addEventListener("change", () => {
+    const chosen = langSelect.value;
+    document.querySelectorAll('.translated-text').forEach(el => el.style.display = "none");
+    document.querySelectorAll(`.lang-${chosen}`).forEach(el => el.style.display = "block");
+
+    langMsg.textContent = messages[chosen];
+    langMsg.style.animation = "none";
+    void langMsg.offsetWidth; // trigger reflow for animation reset
+    langMsg.style.animation = null;
+  });
+
+  // Default to English
+  window.addEventListener("load", () => {
+    langSelect.dispatchEvent(new Event("change"));
+  });
+</script>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>🌈 SunshineShrine - Fan Social Network for Sunshine Days ✨</title>
+<title>Sunshine Days Fan Network - FYP & Profiles</title>
 <style>
-  /* === STYLE ULTRA CUTEORE PIXEL === */
-  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  /* ——— LOADING SCREEN ——— */
+  #loadingScreen {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, #ffaadf, #ffe3f3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999;
+    font-family: 'Pixel Operator', monospace, sans-serif;
+    color: #7a0066;
+    font-size: 24px;
+    user-select: none;
+  }
+  #loadingLang {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  /* Loader animation */
+  @keyframes pulse {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0.5;}
+  }
+  .dot {
+    height: 14px;
+    width: 14px;
+    margin: 0 6px;
+    background-color: #d4008d;
+    border-radius: 50%;
+    display: inline-block;
+    animation: pulse 1.2s infinite ease-in-out;
+  }
+  .dot:nth-child(2) { animation-delay: 0.2s; }
+  .dot:nth-child(3) { animation-delay: 0.4s; }
 
+  /* ——— BASIC RESET & LAYOUT ——— */
   * {
     box-sizing: border-box;
   }
-
   body {
-    margin:0; padding:0;
-    font-family: 'Press Start 2P', cursive;
-    background: linear-gradient(135deg, #ffd4e0, #ffc4cc);
-    color: #d63384;
-    user-select: none;
-  }
-
-  header {
-    background: url('https://i.pinimg.com/originals/9e/50/9a/9e509a5f74b04eebbb4ee47406f6349d.gif') no-repeat center/cover;
-    padding: 40px 10px 30px;
-    border-bottom: 6px dashed #f497b2;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 3px #000;
-  }
-  header h1 {
-    font-size: 2.5rem;
     margin: 0;
+    background: #fff0f7;
+    font-family: 'Poppins', sans-serif;
+    color: #4a004a;
+    min-height: 100vh;
   }
-  header p {
-    font-size: 0.8rem;
-    margin: 4px 0 0;
-    font-style: italic;
-    letter-spacing: 1.5px;
-  }
-
-  /* Language popup */
-  #language-popup {
-    position: fixed;
-    inset: 0;
-    background: rgba(255, 192, 203, 0.9);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10000;
-    user-select:none;
-  }
-  #language-popup.hidden {
-    display: none;
-  }
-  #language-popup .popup-inner {
-    background: #fff0fa;
-    border: 5px dotted #d63384;
-    padding: 35px 50px;
-    border-radius: 16px;
-    text-align: center;
-    color: #d63384;
-  }
-  #language-popup select {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1rem;
-    padding: 8px;
-    margin-top: 15px;
-    border: 3px dashed #d63384;
-    border-radius: 10px;
-    background: #ffe6f0;
-    color: #d63384;
-    cursor: pointer;
-  }
-  #language-popup button {
-    margin-top: 25px;
-    font-family: 'Press Start 2P', cursive;
-    background: #d63384;
-    color: #fff0fa;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 12px;
-    cursor: pointer;
-    font-size: 0.8rem;
-    transition: background 0.3s ease;
-  }
-  #language-popup button:hover {
-    background: #b02462;
-  }
-
-  /* NAV BAR */
-  nav {
-    background: #ffc6d8;
-    padding: 10px 0;
-    border-bottom: 4px dotted #d63384;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    font-size: 0.7rem;
-  }
-  nav a {
-    color: #d63384;
+  a {
     text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  nav a:hover {
-    color: #9e1d52;
+    color: inherit;
+    cursor: pointer;
   }
 
-  /* MAIN AREA */
-  main {
-    max-width: 900px;
-    margin: 20px auto 60px;
-    padding: 0 20px;
-  }
-
-  /* FYP TITLE */
-  #fyp-title {
+  /* ——— HEADER ——— */
+  header {
+    background: #ffaadf;
+    padding: 15px 20px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
     text-align: center;
-    font-size: 1.3rem;
-    margin-bottom: 15px;
-    color: #b62f78;
-    text-shadow: 1px 1px #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(255, 170, 223, 0.3);
   }
 
-  /* POSTS CONTAINER */
-  #posts-container {
+  /* ——— CONTAINER ——— */
+  #app {
+    max-width: 900px;
+    margin: 20px auto 40px;
+    padding: 0 15px;
+  }
+
+  /* ——— LANGUAGE SELECTOR (small top right) ——— */
+  #langSelector {
+    position: fixed;
+    top: 12px;
+    right: 20px;
+    background: #ffe3f3;
+    border: 2px solid #ffaadf;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: #7a0066;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1000;
+  }
+
+  /* ——— ONLINE USERS BAR ——— */
+  #onlineUsers {
+    background: #fff0f7;
+    border: 2px solid #ffaadf;
+    border-radius: 25px;
+    padding: 8px 15px;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+  }
+  #onlineUsers::-webkit-scrollbar { display: none; }
+  .onlineUser {
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #ffaadf;
+    overflow: hidden;
+    box-shadow: 0 0 6px #d4008d88;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  .onlineUser:hover {
+    transform: scale(1.15);
+  }
+  .onlineUser img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .onlineUser[data-status="online"] {
+    box-shadow: 0 0 10px 3px #ff50a5;
+  }
+
+  /* ——— FYP POSTS CONTAINER ——— */
+  #postsContainer {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 18px;
-    min-height: 250px;
-  }
-  .empty-message {
-    color: #b62f78;
-    text-align: center;
-    font-style: italic;
+    gap: 22px;
   }
 
-  /* POST CARD */
+  /* ——— SINGLE POST ——— */
   .post {
-    background: #ffe6f0;
-    border: 3px dashed #d63384;
-    border-radius: 12px;
-    padding: 15px;
-    box-shadow: 4px 4px 10px rgba(198, 55, 101, 0.3);
-    position: relative;
+    background: #fff0f7;
+    border: 2px solid #ffaadf;
+    border-radius: 20px;
+    box-shadow: 0 0 8px #ffaadf88;
+    padding: 15px 20px;
   }
-  .post .author {
-    font-weight: 700;
-    color: #9e1d52;
-    margin-bottom: 8px;
-    cursor: pointer;
-  }
-  .post .content {
-    font-size: 0.8rem;
-    margin-bottom: 10px;
-    white-space: pre-wrap;
-  }
-  .post .media {
-    margin: 10px 0;
-    max-width: 100%;
-    border-radius: 8px;
-  }
-  .post .hashtags {
-    font-size: 0.7rem;
-    color: #a6306e;
-  }
-  .post .post-footer {
+
+  .post-header {
     display: flex;
-    justify-content: space-between;
-    font-size: 0.7rem;
-    margin-top: 12px;
+    align-items: center;
+    gap: 15px;
   }
-  .post .post-footer button {
+  .post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #d4008d;
+  }
+  .post-header .username {
+    font-weight: 700;
+    color: #7a0066;
+    font-size: 18px;
+  }
+  .post-header .post-date {
+    margin-left: auto;
+    font-size: 12px;
+    color: #bb5599;
+  }
+
+  .post-content {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #520055;
+  }
+  .post-image {
+    margin-top: 12px;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  .post-video {
+    margin-top: 12px;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
+  /* ——— POLL ——— */
+  .poll {
+    margin-top: 15px;
+    border: 1.5px solid #ffaadf;
+    border-radius: 12px;
+    padding: 10px 15px;
+    background: #ffe3f3;
+  }
+  .poll-question {
+    font-weight: 700;
+    color: #7a0066;
+    margin-bottom: 10px;
+  }
+  .poll-options {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .poll-option {
+    background: #ffaadf;
+    color: white;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    user-select: none;
+  }
+  .poll-option:hover {
+    background-color: #d4008d;
+  }
+  .poll-option.voted {
+    background-color: #d4008d;
+    cursor: default;
+  }
+
+  /* ——— LIKE & COMMENT BAR ——— */
+  .post-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+  .post-actions button {
     background: none;
     border: none;
-    color: #b62f78;
-    cursor: pointer;
-    font-family: 'Press Start 2P', cursive;
-  }
-  .post .post-footer button:hover {
-    color: #9e1d52;
-  }
-
-  /* COMMENTS */
-  .comments-section {
-    margin-top: 12px;
-    border-top: 1px dotted #d63384;
-    padding-top: 10px;
-  }
-  .comments-section .comment {
-    background: #ffd0dc;
-    border: 1px solid #d63384;
-    border-radius: 6px;
-    padding: 6px;
-    margin-bottom: 6px;
-    font-size: 0.65rem;
-    color: #6f1d40;
-  }
-  .comments-section .comment .c-author {
+    color: #d4008d;
     font-weight: 700;
-  }
-  .comment-input {
-    margin-top: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
     display: flex;
-    gap: 6px;
-  }
-  .comment-input input {
-    flex: 1;
-    border: 2px dashed #d63384;
-    border-radius: 6px;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 0.65rem;
-    padding: 6px;
-    color: #9e1d52;
-  }
-  .comment-input button {
-    padding: 6px 12px;
-    background: #d63384;
-    color: white;
-    font-family: 'Press Start 2P', cursive;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 0.65rem;
-  }
-  .comment-input button:hover {
-    background: #9e1d52;
-  }
-
-  /* PROFILE SECTION */
-  #profile-section {
-    background: #fff0fa;
-    border: 4px dotted #d63384;
-    border-radius: 20px;
-    padding: 20px;
-    margin-top: 40px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #profile-section h2 {
-    text-align: center;
-    color: #9e1d52;
-  }
-  #profile-form label {
-    display: block;
-    font-size: 0.7rem;
-    margin-top: 15px;
-    color: #b62f78;
-  }
-  #profile-form input[type="text"], #profile-form textarea {
-    width: 100%;
-    padding: 10px;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 0.7rem;
-    border: 3px dashed #d63384;
-    border-radius: 12px;
-    resize: none;
-    background: #ffe6f0;
-    color: #9e1d52;
-  }
-  #profile-form button {
-    margin-top: 20px;
-    width: 100%;
-    background: #d63384;
-    color: white;
-    border: none;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 0.8rem;
-    padding: 14px 0;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-  #profile-form button:hover {
-    background: #9e1d52;
-  }
-  #profile-banner {
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-top: 15px;
-    border: 3px dashed #d63384;
-  }
-
-  /* POST CREATION FORM */
-  #post-creation {
-    background: #fff0fa;
-    border: 4px dotted #d63384;
-    border-radius: 16px;
-    padding: 20px;
-    margin: 40px auto;
-    max-width: 700px;
-  }
-  #post-creation h2 {
-    color: #9e1d52;
-    text-align: center;
-  }
-  #post-creation textarea {
-    width: 100%;
-    height: 90px;
-    border: 3px dashed #d63384;
-    border-radius: 12px;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 0.7rem;
-    padding: 12px;
-    resize: none;
-    color: #9e1d52;
-    background: #ffe6f0;
-  }
-  #post-creation input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 0.7rem;
-    margin-top: 12px;
-    border: 3px dashed #d63384;
-    border-radius: 12px;
-    background: #ffe6f0;
-    color: #9e1d52;
-  }
-  #post-creation input[type="file"] {
-    margin-top: 12px;
-  }
-  #post-creation button {
-    margin-top: 20px;
-    background: #d63384;
-    color: white;
-    border: none;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 0.8rem;
-    padding: 14px 0;
-    width: 100%;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-  #post-creation button:hover {
-    background: #9e1d52;
-  }
-
-  /* USER LIST & FOLLOW */
-  #users-list {
-    max-width: 700px;
-    margin: 30px auto;
-    background: #fff0fa;
-    border: 4px dotted #d63384;
-    border-radius: 20px;
-    padding: 20px;
-  }
-  #users-list h3 {
-    color: #9e1d52;
-    text-align: center;
-  }
-  .user-item {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    border-bottom: 2px dashed #d63384;
-    padding: 10px 0;
-    font-size: 0.7rem;
-    color: #b62f78;
+    gap: 6px;
+    transition: color 0.2s ease;
   }
-  .user-item button {
-    font-family: 'Press Start 2P', cursive;
-    background: #d63384;
-    border: none;
-    color: white;
-    border-radius: 12px;
-    padding: 6px 12px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+  .post-actions button:hover {
+    color: #ff50a5;
   }
-  .user-item button:hover {
-    background: #9e1d52;
+  .post-actions button.liked {
+    color: #ff50a5;
   }
 
-  /* MESSAGES */
-  #messages-section {
-    max-width: 700px;
-    margin: 30px auto 80px;
-    background: #fff0fa;
-    border: 4px dotted #d63384;
+  /* ——— COMMENTS SECTION ——— */
+  .comments {
+    margin-top: 15px;
+    border-top: 1.5px solid #ffaadf;
+    padding-top: 12px;
+    max-height: 140px;
+    overflow-y: auto;
+  }
+  .comment {
+    font-size: 14px;
+    color: #6a006a;
+    margin-bottom: 8px;
+  }
+  .comment strong {
+    color: #9f0075;
+  }
+
+  /* ——— NEW POST FORM ——— */
+  #newPostForm {
+    background: #fff0f7;
+    border: 2px solid #ffaadf;
     border-radius: 20px;
     padding: 20px;
+    margin-top: 30px;
   }
-  #messages-section h3 {
-    color: #9e1d52;
-    text-align: center;
+  #newPostForm textarea {
+    width: 100%;
+    min-height: 70px;
+    border-radius: 15px;
+    border: 2px solid #ffaadf;
+    padding: 10px 15px;
+    font-size: 15px;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+    color: #520055;
   }
-  #messages-list {
-    max-height: 250px;
-    overflow-y: auto;
-    border: 2px dashed #d63384;
-    background: #ffe6f0;
-    padding: 10px;
-    border-radius: 12px;
-    font-size: 0.7rem;
-    color: #9e1d52;
+  #newPostForm input[type="text"], #newPostForm input[type="url"] {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px 12px;
+    border-radius: 15px;
+    border: 2px solid #ffaadf;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #520055;
   }
-  .message-item {
-    margin-bottom: 10px;
-  }
-  .message-author {
-    font-weight: 700;
-    color: #b62f78;
-  }
-  #message-form {
-    margin-top: 15px;
-    display: flex;
-    gap: 8px;
-  }
-  #message-form select, #message-form input[type="text"] {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 0.7rem;
-    padding: 8px;
-    border: 3px dashed #d63384;
-    border-radius: 12px;
-    background: #ffe6f0;
-    color: #9e1d52;
-  }
-  #message-form input[type="text"] {
-    flex: 1;
-  }
-  #message-form button {
-    background: #d63384;
-    color: white;
-    font-family: 'Press Start 2P', cursive;
+  #newPostForm button {
+    margin-top: 12px;
+    background: #ff50a5;
     border: none;
-    border-radius: 12px;
-    padding: 8px 16px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
     cursor: pointer;
+    user-select: none;
+    transition: background-color 0.25s ease;
   }
-  #message-form button:hover {
-    background: #9e1d52;
+  #newPostForm button:hover {
+    background: #d4008d;
   }
 
-  /* FOOTER */
-  footer {
+  /* ——— PROFILE MODAL ——— */
+  #profileModal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9998;
+  }
+  #profileModal.active {
+    display: flex;
+  }
+  #profileModalContent {
+    background: #fff0f7;
+    border-radius: 25px;
+    max-width: 400px;
+    width: 90%;
+    padding: 30px 25px;
+    box-shadow: 0 0 20px #d4008d99;
+    color: #520055;
+    position: relative;
+  }
+  #profileModalContent .closeBtn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #d4008d;
+    cursor: pointer;
+    user-select: none;
+  }
+  #profileModalContent img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #ffaadf;
+    display: block;
+    margin: 0 auto 15px auto;
+  }
+  #profileModalContent h2 {
     text-align: center;
-    margin-bottom: 40px;
-    font-size: 0.6rem;
-    color: #b62f78;
-    font-family: 'Press Start 2P', cursive;
+    margin: 0 0 8px;
+    font-weight: 900;
+    color: #7a0066;
+  }
+  #profileModalContent p {
+    font-size: 14px;
+    margin: 0 0 12px;
+    text-align: center;
+    color: #800070cc;
+  }
+  #profileModalContent .bio {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  #profileModalContent .stats {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    color: #d4008d;
   }
 
-  /* Responsive */
-  @media (max-width: 600px) {
-    nav {
-      gap: 15px;
-      font-size: 0.6rem;
+  /* Responsive tweaks */
+  @media (max-width: 500px) {
+    .post-header .username {
+      font-size: 16px;
     }
-    #post-creation textarea {
-      height: 70px;
+    .post-content {
+      font-size: 14px;
     }
   }
 </style>
 </head>
 <body>
 
-<header>
-  <h1>🌞 SunshineShrine</h1>
-  <p>The Official Fan Social Network for Sunshine Days ✨</p>
-</header>
+<!-- LOADING SCREEN -->
+<div id="loadingScreen">
+  <div>Loading<span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+  <div id="loadingLang">English</div>
+</div>
 
-<div id="language-popup" aria-label="Choose Language">
-  <div class="popup-inner">
-    <h2>Select Your Language / Sélectionnez votre langue</h2>
-    <select id="language-select" aria-label="Language selection">
-      <option value="en" selected>English</option>
-      <option value="fr">Français</option>
-      <option value="ja">日本語</option>
-      <option value="es">Español</option>
-      <option value="de">Deutsch</option>
-    </select>
-    <br />
-    <button id="lang-confirm-btn">Confirm / Confirmer</button>
+<!-- LANGUAGE SELECTOR -->
+<div id="langSelector" title="Change Language">EN</div>
+
+<header>Sunshine Days Fan Network</header>
+
+<div id="app">
+  <!-- ONLINE USERS BAR -->
+  <div id="onlineUsers" title="Online Users">
+    <!-- users appended here dynamically -->
+  </div>
+
+  <!-- POSTS CONTAINER -->
+  <div id="postsContainer">
+    <!-- posts go here dynamically -->
+  </div>
+
+  <!-- NEW POST FORM -->
+  <form id="newPostForm" autocomplete="off">
+    <textarea id="postText" placeholder="Write something cool..."></textarea>
+    <input type="url" id="postImage" placeholder="Add image URL (optional)" />
+    <input type="text" id="pollQuestion" placeholder="Add a poll question (optional)" />
+    <input type="text" id="pollOptions" placeholder="Poll options separated by commas (optional)" />
+    <button type="submit">Post!</button>
+  </form>
+</div>
+
+<!-- PROFILE MODAL -->
+<div id="profileModal" aria-hidden="true">
+  <div id="profileModalContent" role="dialog" aria-modal="true" aria-labelledby="profileName">
+    <button class="closeBtn" aria-label="Close profile">&times;</button>
+    <img src="" alt="Profile Picture" id="profilePic" />
+    <h2 id="profileName"></h2>
+    <p id="profileBio" class="bio"></p>
+    <div class="stats">
+      <div><strong id="postsCount"></strong><br>Posts</div>
+      <div><strong id="followersCount"></strong><br>Followers</div>
+      <div><strong id="followingCount"></strong><br>Following</div>
+    </div>
   </div>
 </div>
 
-<nav aria-label="Main navigation">
-  <a href="#" data-section="feed" class="nav-link active">Feed</a>
-  <a href="#" data-section="profile" class="nav-link">My Profile</a>
-  <a href="#" data-section="users" class="nav-link">Users</a>
-  <a href="#" data-section="messages" class="nav-link">Messages</a>
-</nav>
-
-<main>
-
-  <!-- FEED SECTION -->
-  <section id="feed-section" aria-label="Feed" tabindex="0">
-    <h2 id="fyp-title">Your Sunshine Feed</h2>
-
-    <div id="post-creation" aria-label="Create a new post">
-      <h2>Create New Post</h2>
-      <textarea id="new-post-content" placeholder="Write your post here..."></textarea>
-      <input type="text" id="new-post-hashtags" placeholder="Add hashtags separated by spaces (#sunshine #love)" />
-      <input type="file" id="new-post-media" accept="image/*,video/*" aria-label="Upload image or video (optional)" />
-      <button id="create-post-btn">Post It!</button>
-    </div>
-
-    <div id="posts-container" aria-live="polite" aria-relevant="additions"></div>
-  </section>
-
-  <!-- PROFILE SECTION -->
-  <section id="profile-section" aria-label="User Profile" tabindex="0" hidden>
-    <h2>My Profile</h2>
-    <form id="profile-form" aria-describedby="profile-desc">
-      <label for="profile-username">Username (max 12 chars)</label>
-      <input type="text" id="profile-username" maxlength="12" required placeholder="Your cool name" />
-
-      <label for="profile-bio">Bio (max 100 chars)</label>
-      <textarea id="profile-bio" maxlength="100" rows="3" placeholder="Say something cute or epic..."></textarea>
-
-      <label for="profile-banner-url">Banner Image URL (optional)</label>
-      <input type="text" id="profile-banner-url" placeholder="Paste a URL for your profile banner" />
-
-      <img id="profile-banner" alt="Profile banner preview" src="" hidden />
-
-      <button type="submit">Save Profile</button>
-    </form>
-  </section>
-
-  <!-- USERS LIST SECTION -->
-  <section id="users-section" aria-label="Users List" tabindex="0" hidden>
-    <h3>Users Around the World</h3>
-    <div id="users-list"></div>
-  </section>
-
-  <!-- MESSAGES SECTION -->
-  <section id="messages-section" aria-label="Private Messages" tabindex="0" hidden>
-    <h3>Private Messages</h3>
-
-    <div id="messages-list" aria-live="polite" aria-relevant="additions"></div>
-
-    <form id="message-form" aria-label="Send private message">
-      <select id="message-recipient" aria-label="Select recipient"></select>
-      <input type="text" id="message-input" placeholder="Type your message..." required autocomplete="off" />
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-</main>
-
-<footer>
-  © 2025 SunshineShrine — Created by Yukino | Powered by Love & Code 💖
-</footer>
-
 <script>
-  // === DATA & STORAGE ===
-  const STORAGE_KEY = 'sunshineshrine_data_v1';
+  // ——— LANG SWITCH LOADING SCREEN ———
+  const langs = [
+    {code: "EN", name: "English"},
+    {code: "FR", name: "Français"},
+    {code: "JP", name: "日本語"},
+    {code: "KR", name: "한국어"},
+    {code: "ES", name: "Español"},
+    {code: "DE", name: "Deutsch"},
+    {code: "RU", name: "Русский"},
+    {code: "IT", name: "Italiano"},
+    {code: "ZH", name: "中文"},
+  ];
+  let langIndex = 0;
+  const loadingLangEl = document.getElementById("loadingLang");
+  const loadingScreen = document.getElementById("loadingScreen");
+  const langSelector = document.getElementById("langSelector");
 
-  // Default empty data structure
-  let data = {
-    users: [],
-    posts: [],
-    messages: [],
-    currentUser: null,
-    lang: 'en'
-  };
+  let langSwitchInterval = setInterval(() => {
+    langIndex = (langIndex + 1) % langs.length;
+    loadingLangEl.textContent = langs[langIndex].name;
+  }, 2000);
 
-  // === LANGUAGE STRINGS ===
-  const i18n = {
-    en: {
-      feedTitle: "Your Sunshine Feed",
-      createPost: "Create New Post",
-      placeholderPost: "Write your post here...",
-      placeholderHashtags: "Add hashtags separated by spaces (#sunshine #love)",
-      placeholderMedia: "Upload image or video (optional)",
-      postIt: "Post It!",
-      profile: "My Profile",
-      users: "Users",
-      messages: "Messages",
-      usernameLabel: "Username (max 12 chars)",
-      bioLabel: "Bio (max 100 chars)",
-      bannerLabel: "Banner Image URL (optional)",
-      saveProfile: "Save Profile",
-      usersListTitle: "Users Around the World",
-      privateMessages: "Private Messages",
-      selectRecipient: "Select recipient",
-      messagePlaceholder: "Type your message...",
-      sendBtn: "Send",
-      emptyPosts: "No posts yet, be the first to shine!",
-      emptyUsers: "No other users yet, create your profile!",
-      emptyMessages: "No messages yet",
-      commentPlaceholder: "Write a comment...",
-      commentBtn: "Comment",
-      languagePopupTitle: "Select Your Language / Sélectionnez votre langue",
-      langConfirmBtn: "Confirm / Confirmer"
+  // Simulate loading for 3.5 sec then hide loading screen
+  setTimeout(() => {
+    clearInterval(langSwitchInterval);
+    loadingScreen.style.display = "none";
+    langSelector.textContent = langs[0].code;
+  }, 3500);
+
+  // Language selector toggle for demo (cycles langs on click)
+  langSelector.addEventListener('click', () => {
+    langIndex = (langIndex + 1) % langs.length;
+    langSelector.textContent = langs[langIndex].code;
+  });
+
+  // ——— DATA ———
+
+  // Fake users data
+  const users = [
+    {
+      id: "u1",
+      username: "Alycia_miaky",
+      bio: "Anime creator, forever obsessed with MHA 💖",
+      avatar: "https://i.pravatar.cc/150?u=alycia",
+      postsCount: 34,
+      followersCount: 280,
+      followingCount: 75,
+      online: true
     },
-    fr: {
-      feedTitle: "Votre Fil Sunshine",
-      createPost: "Créer un Nouveau Post",
-      placeholderPost: "Écris ton post ici...",
-      placeholderHashtags: "Ajoute des hashtags séparés par des espaces (#soleil #amour)",
-      placeholderMedia: "Télécharge une image ou vidéo (optionnel)",
-      postIt: "Poster !",
-      profile: "Mon Profil",
-      users: "Utilisateurs",
-      messages: "Messages",
-      usernameLabel: "Pseudo (max 12 caractères)",
-      bioLabel: "Bio (max 100 caractères)",
-      bannerLabel: "URL de l'image de bannière (optionnel)",
-      saveProfile: "Sauvegarder Profil",
-      usersListTitle: "Utilisateurs autour du monde",
-      privateMessages: "Messages Privés",
-      selectRecipient: "Choisir un destinataire",
-      messagePlaceholder: "Écris ton message...",
-      sendBtn: "Envoyer",
-      emptyPosts: "Aucun post pour le moment, sois le premier à briller !",
-      emptyUsers: "Pas d'autres utilisateurs, crée ton profil !",
-      emptyMessages: "Pas encore de messages",
-      commentPlaceholder: "Écris un commentaire...",
-      commentBtn: "Commenter",
-      languagePopupTitle: "Sélectionnez votre langue / Select Your Language",
-      langConfirmBtn: "Confirmer / Confirm"
+    {
+      id: "u2",
+      username: "Yukino",
+      bio: "Clumsy AF but still cute, bi and vibin :3",
+      avatar: "https://i.pravatar.cc/150?u=yukino",
+      postsCount: 56,
+      followersCount: 560,
+      followingCount: 150,
+      online: true
+    },
+    {
+      id: "u3",
+      username: "BakugoSis",
+      bio: "Serious, smart, but spicy with Kacchan 🔥",
+      avatar: "https://i.pravatar.cc/150?u=bakugosis",
+      postsCount: 22,
+      followersCount: 134,
+      followingCount: 45,
+      online: true
+    },
+    {
+      id: "u4",
+      username: "Volkov",
+      bio: "Dark vibes and vampire energy 🧛‍♂️",
+      avatar: "https://i.pravatar.cc/150?u=volkov",
+      postsCount: 41,
+      followersCount: 310,
+      followingCount: 80,
+      online: false
+    },
+    {
+      id: "u5",
+      username: "Inkei",
+      bio: "Sadistic but also kinda lovable? idk 🤷‍♂️",
+      avatar: "https://i.pravatar.cc/150?u=inkei",
+      postsCount: 13,
+      followersCount: 55,
+      followingCount: 10,
+      online: true
     }
-  };
+  ];
 
-  // === DOM ELEMENTS ===
-  const langPopup = document.getElementById('language-popup');
-  const langSelect = document.getElementById('language-select');
-  const langConfirmBtn = document.getElementById('lang-confirm-btn');
-
-  const navLinks = document.querySelectorAll('.nav-link');
-  const feedSection = document.getElementById('feed-section');
-  const profileSection = document.getElementById('profile-section');
-  const usersSection = document.getElementById('users-section');
-  const messagesSection = document.getElementById('messages-section');
-
-  const postsContainer = document.getElementById('posts-container');
-  const usersList = document.getElementById('users-list');
-  const messagesList = document.getElementById('messages-list');
-
-  const profileForm = document.getElementById('profile-form');
-  const profileUsername = document.getElementById('profile-username');
-  const profileBio = document.getElementById('profile-bio');
-  const profileBannerUrl = document.getElementById('profile-banner-url');
-  const profileBanner = document.getElementById('profile-banner');
-
-  const messageForm = document.getElementById('message-form');
-  const messageRecipient = document.getElementById('message-recipient');
-  const messageInput = document.getElementById('message-input');
-
-  const newPostContent = document.getElementById('new-post-content');
-  const newPostHashtags = document.getElementById('new-post-hashtags');
-  const newPostMedia = document.getElementById('new-post-media');
-  const createPostBtn = document.getElementById('create-post-btn');
-
-  // === FUNCTIONS ===
-
-  // Load data from localStorage
-  function loadData() {
-    const savedData = localStorage.getItem(STORAGE_KEY);
-    if (savedData) {
-      data = JSON.parse(savedData);
+  // Fake posts data
+  let posts = [
+    {
+      id: "p1",
+      userId: "u2",
+      date: new Date(Date.now() - 1000 * 60 * 5),
+      text: "Just finished my latest MHA drawing! What do y’all think? 💥🔥",
+      image: "https://i.pinimg.com/originals/5d/88/37/5d88378c5b2d82b18629968c6c30a7a8.jpg",
+      poll: null,
+      likes: 12,
+      likedByMe: false,
+      comments: [
+        {username: "Alycia_miaky", text: "Omg that’s lit! 🔥🔥🔥"},
+        {username: "BakugoSis", text: "Looks dope! Keep it up!"}
+      ]
+    },
+    {
+      id: "p2",
+      userId: "u1",
+      date: new Date(Date.now() - 1000 * 60 * 20),
+      text: "Poll time! Which MHA character has the best quirk?",
+      image: null,
+      poll: {
+        question: "Choose your fav quirk:",
+        options: [
+          {text: "Explosion", votes: 14},
+          {text: "One For All", votes: 18},
+          {text: "Half-Cold Half-Hot", votes: 9},
+          {text: "Zero Gravity", votes: 5}
+        ],
+        voted: false
+      },
+      likes: 28,
+      likedByMe: false,
+      comments: []
+    },
+    {
+      id: "p3",
+      userId: "u3",
+      date: new Date(Date.now() - 1000 * 60 * 45),
+      text: "Studying hard but still watching anime on the side 👀",
+      image: "https://wallpaperaccess.com/full/2306779.jpg",
+      poll: null,
+      likes: 7,
+      likedByMe: false,
+      comments: [
+        {username: "Yukino", text: "Multitasking queen 👑"},
+      ]
     }
-  }
+  ];
 
-  // Save data to localStorage
-  function saveData() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-  }
-
-  // Update UI language strings
-  function updateLanguageUI() {
-    const lang = data.lang;
-    document.getElementById('fyp-title').textContent = i18n[lang].feedTitle;
-    document.querySelector('#post-creation h2').textContent = i18n[lang].createPost;
-    newPostContent.placeholder = i18n[lang].placeholderPost;
-    newPostHashtags.placeholder = i18n[lang].placeholderHashtags;
-    newPostMedia.setAttribute('aria-label', i18n[lang].placeholderMedia);
-    createPostBtn.textContent = i18n[lang].postIt;
-    document.querySelector('nav a[data-section="profile"]').textContent = i18n[lang].profile;
-    document.querySelector('nav a[data-section="users"]').textContent = i18n[lang].users;
-    document.querySelector('nav a[data-section="messages"]').textContent = i18n[lang].messages;
-    document.querySelector('#profile-section h2').textContent = i18n[lang].profile;
-    document.querySelector('label[for="profile-username"]').textContent = i18n[lang].usernameLabel;
-    document.querySelector('label[for="profile-bio"]').textContent = i18n[lang].bioLabel;
-    document.querySelector('label[for="profile-banner-url"]').textContent = i18n[lang].bannerLabel;
-    profileForm.querySelector('button[type="submit"]').textContent = i18n[lang].saveProfile;
-    document.querySelector('#users-section h3').textContent = i18n[lang].usersListTitle;
-    document.querySelector('#messages-section h3').textContent = i18n[lang].privateMessages;
-    messageRecipient.options.length = 0;
-    data.users.forEach(user => {
-      if (user.username !== data.currentUser) {
-        const option = document.createElement('option');
-        option.value = user.username;
-        option.textContent = user.username;
-        messageRecipient.appendChild(option);
+  // ——— UTILITIES ———
+  function timeAgo(date) {
+    const seconds = Math.floor((Date.now() - date.getTime()) / 1000);
+    if (seconds < 60) return "Just now";
+    const intervals = [
+      {label: "min", secs: 60},
+      {label: "hr", secs: 3600},
+      {label: "day", secs: 86400},
+    ];
+    for (let i = intervals.length - 1; i >= 0; i--) {
+      const interval = intervals[i];
+      if (seconds >= interval.secs) {
+        const count = Math.floor(seconds / interval.secs);
+        return `${count} ${interval.label}${count > 1 ? 's' : ''} ago`;
       }
-    });
-    messageInput.placeholder = i18n[lang].messagePlaceholder;
-    messageForm.querySelector('button[type="submit"]').textContent = i18n[lang].sendBtn;
-  }
-
-  // Show only the selected section
-  function showSection(section) {
-    feedSection.hidden = true;
-    profileSection.hidden = true;
-    usersSection.hidden = true;
-    messagesSection.hidden = true;
-
-    document.querySelectorAll('.nav-link').forEach(link => {
-      link.classList.remove('active');
-    });
-
-    if (section === 'feed') {
-      feedSection.hidden = false;
-      document.querySelector('.nav-link[data-section="feed"]').classList.add('active');
-    } else if (section === 'profile') {
-      profileSection.hidden = false;
-      document.querySelector('.nav-link[data-section="profile"]').classList.add('active');
-    } else if (section === 'users') {
-      usersSection.hidden = false;
-      document.querySelector('.nav-link[data-section="users"]').classList.add('active');
-    } else if (section === 'messages') {
-      messagesSection.hidden = false;
-      document.querySelector('.nav-link[data-section="messages"]').classList.add('active');
     }
+    return "Just now";
   }
 
-  // Render posts to UI
+  // ——— APP ELEMENTS ———
+  const onlineUsersContainer = document.getElementById("onlineUsers");
+  const postsContainer = document.getElementById("postsContainer");
+  const profileModal = document.getElementById("profileModal");
+  const profileModalContent = document.getElementById("profileModalContent");
+  const profilePic = document.getElementById("profilePic");
+  const profileName = document.getElementById("profileName");
+  const profileBio = document.getElementById("profileBio");
+  const postsCountEl = document.getElementById("postsCount");
+  const followersCountEl = document.getElementById("followersCount");
+  const followingCountEl = document.getElementById("followingCount");
+  const profileCloseBtn = profileModalContent.querySelector(".closeBtn");
+
+  // ——— RENDER ONLINE USERS ———
+  function renderOnlineUsers() {
+    onlineUsersContainer.innerHTML = "";
+    users.filter(u => u.online).forEach(user => {
+      const userEl = document.createElement("div");
+      userEl.classList.add("online-user");
+      userEl.title = user.username + (user.online ? " (Online)" : " (Offline)");
+      userEl.innerHTML = `<img src="${user.avatar}" alt="${user.username}'s avatar" />`;
+      userEl.addEventListener("click", () => openProfile(user.id));
+      onlineUsersContainer.appendChild(userEl);
+    });
+  }
+
+  // ——— RENDER POSTS ———
   function renderPosts() {
-    postsContainer.innerHTML = '';
-    if (data.posts.length === 0) {
-      const emptyMsg = document.createElement('p');
-      emptyMsg.textContent = i18n[data.lang].emptyPosts;
-      postsContainer.appendChild(emptyMsg);
-      return;
-    }
-    data.posts.forEach(post => {
-      const postDiv = document.createElement('div');
-      postDiv.className = 'post-item';
-      const user = data.users.find(u => u.username === post.author);
-      const userDisplayName = user ? user.username : 'Unknown';
+    postsContainer.innerHTML = "";
+    posts.forEach(post => {
+      const user = users.find(u => u.id === post.userId);
+      if (!user) return;
 
-      postDiv.innerHTML = `
-        <p><strong>${userDisplayName}</strong>: ${post.content}</p>
-        ${post.media ? `<img src="${post.media}" alt="Post media" style="max-width: 100%; border-radius: 8px;" />` : ''}
-        <p class="hashtags">${post.hashtags.join(' ')}</p>
+      const postEl = document.createElement("article");
+      postEl.className = "post";
+
+      // Header
+      const header = document.createElement("div");
+      header.className = "post-header";
+      header.innerHTML = `
+        <img src="${user.avatar}" alt="${user.username}'s avatar" />
+        <span class="username">${user.username}</span>
+        <time>${timeAgo(post.date)}</time>
       `;
-      postsContainer.appendChild(postDiv);
-    });
-  }
+      header.querySelector(".username").addEventListener("click", () => openProfile(user.id));
+      postEl.appendChild(header);
 
-  // Render users list to UI
-  function renderUsers() {
-    usersList.innerHTML = '';
-    if (data.users.length === 0) {
-      const emptyMsg = document.createElement('p');
-      emptyMsg.textContent = i18n[data.lang].emptyUsers;
-      usersList.appendChild(emptyMsg);
-      return;
-    }
-    data.users.forEach(user => {
-      const userDiv = document.createElement('div');
-      userDiv.className = 'user-item';
-      userDiv.innerHTML = `
-        <p><strong>${user.username}</strong></p>
-        <p>${user.bio}</p>
-      `;
-      usersList.appendChild(userDiv);
-    });
-  }
+      // Content
+      const content = document.createElement("div");
+      content.className = "post-content";
 
-  // Render messages list to UI
-  function renderMessages() {
-    messagesList.innerHTML = '';
-    const userMessages = data.messages.filter(m => 
-      m.sender === data.currentUser || m.recipient === data.currentUser);
-    if (userMessages.length === 0) {
-      const emptyMsg = document.createElement('p');
-      emptyMsg.textContent = i18n[data.lang].emptyMessages;
-      messagesList.appendChild(emptyMsg);
-      return;
-    }
-    userMessages.forEach(msg => {
-      const msgDiv = document.createElement('div');
-      msgDiv.className = 'message-item';
-      msgDiv.innerHTML = `
-        <span class="message-author">${msg.sender} → ${msg.recipient}:</span> ${msg.content}
-      `;
-      messagesList.appendChild(msgDiv);
-    });
-  }
-
-  // === EVENT LISTENERS ===
-
-  // Language confirmation popup
-  langConfirmBtn.addEventListener('click', () => {
-    data.lang = langSelect.value;
-    updateLanguageUI();
-    langPopup.style.display = 'none';
-    saveData();
-  });
-
-  // Navigation
-  navLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.preventDefault();
-      const section = e.target.getAttribute('data-section');
-      showSection(section);
-    });
-  });
-
-  // Profile form submission
-  profileForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const username = profileUsername.value.trim();
-    const bio = profileBio.value.trim();
-    const bannerUrl = profileBannerUrl.value.trim();
-
-    if (username.length === 0 || username.length > 12) {
-      alert('Username must be between 1 and 12 characters!');
-      return;
-    }
-    if (bio.length > 100) {
-      alert('Bio must be 100 characters max!');
-      return;
-    }
-
-    // Check if username already exists (except current user)
-    const usernameExists = data.users.some(u => u.username === username && username !== data.currentUser);
-    if (usernameExists) {
-      alert('Username already taken!');
-      return;
-    }
-
-    // If new user, add to users list
-    if (!data.currentUser) {
-      data.currentUser = username;
-      data.users.push({ username, bio, bannerUrl });
-    } else {
-      // Update existing user info
-      const currentUserIndex = data.users.findIndex(u => u.username === data.currentUser);
-      if (currentUserIndex !== -1) {
-        data.users[currentUserIndex].username = username;
-        data.users[currentUserIndex].bio = bio;
-        data.users[currentUserIndex].bannerUrl = bannerUrl;
+      if (post.text) {
+        const p = document.createElement("p");
+        p.textContent = post.text;
+        content.appendChild(p);
       }
-      data.currentUser = username;
-    }
+      if (post.image) {
+        const img = document.createElement("img");
+        img.src = post.image;
+        img.alt = "Post image";
+        content.appendChild(img);
+      }
+      if (post.poll) {
+        const pollDiv = document.createElement("div");
+        pollDiv.className = "poll";
+        const pollQ = document.createElement("p");
+        pollQ.textContent = post.poll.question;
+        pollDiv.appendChild(pollQ);
 
-    saveData();
-    updateLanguageUI();
-    renderUsers();
-    alert('Profile saved successfully!');
-  });
+        post.poll.options.forEach((opt, idx) => {
+          const option = document.createElement("div");
+          option.className = "poll-option";
 
-  // Profile banner preview update
-  profileBannerUrl.addEventListener('input', () => {
-    const url = profileBannerUrl.value.trim();
-    if (url) {
-      profileBanner.src = url;
-      profileBanner.hidden = false;
-    } else {
-      profileBanner.hidden = true;
-    }
-  });
+          const radio = document.createElement("input");
+          radio.type = "radio";
+          radio.name = "poll-" + post.id;
+          radio.id = `poll-${post.id}-opt-${idx}`;
+          radio.disabled = post.poll.voted;
+          option.appendChild(radio);
 
-  // Create post button click
-  createPostBtn.addEventListener('click', () => {
-    const content = newPostContent.value.trim();
-    const hashtags = newPostHashtags.value.trim().split(' ').filter(tag => tag.startsWith('#'));
-    const file = newPostMedia.files[0];
-    if (!content) {
-      alert('Post content cannot be empty!');
-      return;
-    }
+          const label = document.createElement("label");
+          label.htmlFor = radio.id;
+          label.textContent = `${opt.text} (${opt.votes})`;
+          option.appendChild(label);
 
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = () => {
-        const mediaUrl = reader.result;
-        data.posts.push({
-          author: data.currentUser,
-          content,
-          hashtags,
-          media: mediaUrl
+          radio.addEventListener("change", () => {
+            if (!post.poll.voted) {
+              opt.votes++;
+              post.poll.voted = true;
+              renderPosts();
+            }
+          });
+
+          pollDiv.appendChild(option);
         });
-        saveData();
+
+        content.appendChild(pollDiv);
+      }
+      postEl.appendChild(content);
+
+      // Actions
+      const actions = document.createElement("div");
+      actions.className = "post-actions";
+
+      const likeBtn = document.createElement("button");
+      likeBtn.textContent = `❤️ ${post.likes + (post.likedByMe ? 1 : 0)}`;
+      likeBtn.style.color = post.likedByMe ? "#d4008d" : "#520055";
+      likeBtn.addEventListener("click", () => {
+        if (!post.likedByMe) {
+          post.likes++;
+          post.likedByMe = true;
+        } else {
+          post.likes--;
+          post.likedByMe = false;
+        }
         renderPosts();
-        newPostContent.value = '';
-        newPostHashtags.value = '';
-        newPostMedia.value = '';
-        alert('Post created!');
-      };
-      reader.readAsDataURL(file);
-    } else {
-      data.posts.push({
-        author: data.currentUser,
-        content,
-        hashtags,
-        media: null
       });
-      saveData();
-      renderPosts();
-      newPostContent.value = '';
-      newPostHashtags.value = '';
-      newPostMedia.value = '';
-      alert('Post created!');
-    }
-  });
+      actions.appendChild(likeBtn);
 
-  // Send private message
-  messageForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const recipient = messageRecipient.value;
-    const content = messageInput.value.trim();
-    if (!recipient) {
-      alert('Select a recipient!');
-      return;
-    }
-    if (!content) {
-      alert('Message cannot be empty!');
-      return;
-    }
-    data.messages.push({
-      sender: data.currentUser,
-      recipient,
-      content
+      postEl.appendChild(actions);
+
+      // Comments
+      if (post.comments && post.comments.length > 0) {
+        const commentsDiv = document.createElement("div");
+        commentsDiv.className = "comments";
+
+        post.comments.forEach(cmt => {
+          const cmtDiv = document.createElement("div");
+          cmtDiv.className = "comment";
+          cmtDiv.innerHTML = `<strong>${cmt.username}</strong>: ${cmt.text}`;
+          commentsDiv.appendChild(cmtDiv);
+        });
+
+        postEl.appendChild(commentsDiv);
+      }
+
+      postsContainer.appendChild(postEl);
     });
-    saveData();
-    renderMessages();
-    messageInput.value = '';
-    alert('Message sent!');
+  }
+
+  // ——— OPEN PROFILE MODAL ———
+  function openProfile(userId) {
+    const user = users.find(u => u.id === userId);
+    if (!user) return;
+
+    profilePic.src = user.avatar;
+    profilePic.alt = user.username + "'s avatar";
+    profileName.textContent = user.username;
+    profileBio.textContent = user.bio;
+    postsCountEl.textContent = user.postsCount;
+    followersCountEl.textContent = user.followersCount;
+    followingCountEl.textContent = user.followingCount;
+
+    profileModal.classList.add("active");
+    profileModal.setAttribute("aria-hidden", "false");
+  }
+
+  profileCloseBtn.addEventListener("click", () => {
+    profileModal.classList.remove("active");
+    profileModal.setAttribute("aria-hidden", "true");
   });
 
-  // Initial load
-  loadData();
-  if (!data.currentUser) {
-    langPopup.style.display = 'block';
-  } else {
-    langPopup.style.display = 'none';
-    updateLanguageUI();
+  // ——— NEW POST FORM HANDLER ———
+  const newPostForm = document.getElementById("newPostForm");
+  newPostForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const text = document.getElementById("postText").value.trim();
+    const image = document.getElementById("postImage").value.trim();
+    const pollQuestion = document.getElementById("pollQuestion").value.trim();
+    const pollOptions = document.getElementById("pollOptions").value.trim();
+
+    if (!text && !image && !pollQuestion) {
+      alert("You can't post empty stuff, duh!");
+      return;
+    }
+
+    let poll = null;
+    if (pollQuestion && pollOptions) {
+      const optionsArr = pollOptions.split(",").map(opt => opt.trim()).filter(Boolean);
+      if (optionsArr.length < 2) {
+        alert("You need at least 2 poll options, silly.");
+        return;
+      }
+      poll = {
+        question: pollQuestion,
+        options: optionsArr.map(opt => ({text: opt, votes: 0})),
+        voted: false
+      };
+    }
+
+    // Create new post object
+    const newPost = {
+      id: "p" + (posts.length + 1),
+      userId: "u2", // For demo, assume Yukino is posting
+      date: new Date(),
+      text,
+      image: image || null,
+      poll,
+      likes: 0,
+      likedByMe: false,
+      comments: []
+    };
+
+    posts.unshift(newPost);
+    users.find(u => u.id === "u2").postsCount++;
+
+    // Reset form
+    newPostForm.reset();
+
     renderPosts();
-    renderUsers();
-    renderMessages();
-  }
-  showSection('feed');
+  });
+
+  // ——— INIT ———
+  renderOnlineUsers();
+  renderPosts();
+
 </script>
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sunshine Days Fanfeed</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  /* Reset + base */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background: #ffe0f0;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0; padding: 0;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  /* Feed container */
+  #feed {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-width: 600px;
+    margin: 50px auto 80px;
+    padding: 10px;
+    background: #fff0fb;
+    border: 4px solid #ff77cc;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #ff99dd88;
+  }
+  /* Each post */
+  .post {
+    background: #ffd1ec;
+    border: 3px solid #ff77cc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 12px;
+    box-shadow: 2px 2px 6px #ff66bbaa;
+    position: relative;
+  }
+  .post.online {
+    border-color: #66ff99;
+    box-shadow: 0 0 15px #66ff9977;
+  }
+  .post-type {
+    font-size: 10px;
+    font-weight: bold;
+    color: #cc3399;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+  .post-text {
+    font-size: 13px;
+    white-space: pre-wrap;
+    line-height: 1.3;
+  }
+  .post-hashtags {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #aa1177;
+  }
+  .post-hashtags span {
+    margin-right: 6px;
+  }
+  .post-online-tag {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background: #66ff99;
+    color: #004400;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 6px;
+  }
+  /* The big "+" button bottom left */
+  #postBtn {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    background: #ff77cc;
+    border: 4px solid #ff33aa;
+    border-radius: 50%;
+    color: white;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 15px #ff55bbcc;
+    user-select: none;
+    transition: background 0.3s ease;
+  }
+  #postBtn:hover {
+    background: #ff33aa;
+  }
+  /* Modal */
+  #modalOverlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 0, 170, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+  }
+  #modal {
+    background: #ffe0f0;
+    border: 5px solid #ff77cc;
+    border-radius: 14px;
+    max-width: 350px;
+    padding: 20px;
+    margin: 100px auto;
+    color: #770055;
+    box-shadow: 0 0 40px #ff55bbaa;
+  }
+  #modal h2 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  #modal label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  #modal select, #modal input[type="text"], #modal textarea {
+    width: 100%;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 11px;
+    padding: 6px;
+    border: 3px solid #ff77cc;
+    border-radius: 8px;
+    outline: none;
+    resize: vertical;
+  }
+  #modal textarea {
+    height: 80px;
+  }
+  #hashtagsContainer {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #cc3399;
+    font-family: monospace;
+  }
+  #hashtagsContainer span {
+    margin-right: 8px;
+    cursor: pointer;
+    user-select: none;
+    background: #ff99dd;
+    padding: 3px 7px;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  #hashtagsContainer span:hover {
+    background: #ff66bb;
+  }
+  #modal button {
+    margin-top: 15px;
+    background: #ff33aa;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: background 0.3s ease;
+  }
+  #modal button:hover {
+    background: #ff0077;
+  }
+  /* Loader */
+  #loader {
+    display: none;
+    margin: 15px auto 0;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #ff33aa;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+  }
+</style>
+</head>
+<body>
+
+<div id="feed">
+  <!-- posts appear here -->
+</div>
+
+<div id="postBtn" title="Create new post">+</div>
+
+<div id="modalOverlay">
+  <div id="modal">
+    <h2>Create a post</h2>
+    <label for="postType">Select post type:</label>
+    <select id="postType" required>
+      <option value="">-- Choose --</option>
+      <option value="text">Text</option>
+      <option value="image">Image (URL)</option>
+      <option value="video">Video (URL)</option>
+      <option value="poll">Poll (text + options)</option>
+    </select>
+
+    <label for="postContent">Description / Content:</label>
+    <textarea id="postContent" placeholder="Write your description..."></textarea>
+
+    <label>Suggested Hashtags (click to add):</label>
+    <div id="hashtagsContainer">
+      <span>#fyp</span>
+      <span>#sunshinedays</span>
+      <span>#characters</span>
+      <span>#anime</span>
+      <span>#magicalgirl</span>
+      <span>#友情 (friendship)</span>
+      <span>#光 (light)</span>
+      <span>#希望 (hope)</span>
+    </div>
+
+    <button id="postNextBtn">Next ➡️</button>
+    <div id="loader"></div>
+  </div>
+</div>
+
+<script>
+  const postBtn = document.getElementById('postBtn');
+  const modalOverlay = document.getElementById('modalOverlay');
+  const postType = document.getElementById('postType');
+  const postContent = document.getElementById('postContent');
+  const hashtagsContainer = document.getElementById('hashtagsContainer');
+  const postNextBtn = document.getElementById('postNextBtn');
+  const loader = document.getElementById('loader');
+  const feed = document.getElementById('feed');
+
+  // When click "+" open modal
+  postBtn.onclick = () => {
+    modalOverlay.style.display = 'block';
+    postType.value = '';
+    postContent.value = '';
+  };
+
+  // Close modal if click outside modal box
+  modalOverlay.onclick = (e) => {
+    if (e.target === modalOverlay) {
+      modalOverlay.style.display = 'none';
+      loader.style.display = 'none';
+      postNextBtn.style.display = 'block';
+    }
+  };
+
+  // Click hashtag to add in description at cursor pos
+  hashtagsContainer.addEventListener('click', e => {
+    if (e.target.tagName === 'SPAN') {
+      const tag = e.target.textContent;
+      insertAtCursor(postContent, tag + ' ');
+      postContent.focus();
+    }
+  });
+
+  function insertAtCursor(myField, myValue) {
+    // IE support
+    if (document.selection) {
+      myField.focus();
+      let sel = document.selection.createRange();
+      sel.text = myValue;
+    }
+    // MOZILLA and others
+    else if (myField.selectionStart || myField.selectionStart === 0) {
+      let startPos = myField.selectionStart;
+      let endPos = myField.selectionEnd;
+      let scrollTop = myField.scrollTop;
+      myField.value = myField.value.substring(0, startPos) + myValue + myField.value.substring(endPos, myField.value.length);
+      myField.selectionStart = startPos + myValue.length;
+      myField.selectionEnd = startPos + myValue.length;
+      myField.scrollTop = scrollTop;
+    } else {
+      myField.value += myValue;
+    }
+  }
+
+  // On Next click
+  postNextBtn.onclick = () => {
+    if (!postType.value) {
+      alert('Please select a post type!');
+      return;
+    }
+    if (!postContent.value.trim()) {
+      alert('Please enter some description/content!');
+      return;
+    }
+    // Show loader
+    postNextBtn.style.display = 'none';
+    loader.style.display = 'block';
+
+    // Fake loading 2 sec then post
+    setTimeout(() => {
+      addPost(postType.value, postContent.value.trim());
+      // Reset & close modal
+      postType.value = '';
+      postContent.value = '';
+      loader.style.display = 'none';
+      postNextBtn.style.display = 'block';
+      modalOverlay.style.display = 'none';
+    }, 2000);
+  };
+
+  function addPost(type, content) {
+    const post = document.createElement('div');
+    post.classList.add('post', 'online');
+
+    const typeTag = document.createElement('div');
+    typeTag.classList.add('post-type');
+    typeTag.textContent = type;
+
+    const contentTag = document.createElement('div');
+    contentTag.classList.add('post-text');
+
+    // Format content based on type
+    if (type === 'text') {
+      contentTag.textContent = content;
+    } else if (type === 'image') {
+      // If content looks like URL, show image
+      contentTag.innerHTML = `<img src="${content}" alt="User Image" style="max-width:100%; border-radius:10px;">`;
+    } else if (type === 'video') {
+      // Embed video (YouTube link only for example)
+      if (content.includes('youtube.com') || content.includes('youtu.be')) {
+        let videoId = '';
+        if (content.includes('youtu.be')) {
+          videoId = content.split('youtu.be/')[1].split(/[?&]/)[0];
+        } else {
+          const urlParams = new URLSearchParams(content.split('?')[1]);
+          videoId = urlParams.get('v');
+        }
+        if (videoId) {
+          contentTag.innerHTML = `<iframe width="100%" height="200" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>`;
+        } else {
+          contentTag.textContent = content;
+        }
+      } else {
+        contentTag.textContent = content;
+      }
+    } else if (type === 'poll') {
+      // Poll format: first line = question, next lines = options
+      const lines = content.split('\n').filter(l => l.trim());
+      if (lines.length >= 2) {
+        const question = lines[0];
+        const options = lines.slice(1);
+        let pollHtml = `<b>${question}</b><br><ul>`;
+        options.forEach(opt => {
+          pollHtml += `<li>${opt}</li>`;
+        });
+        pollHtml += `</ul>`;
+        contentTag.innerHTML = pollHtml;
+      } else {
+        contentTag.textContent = content;
+      }
+    }
+
+    // Extract hashtags from content (words starting with #)
+    const hashtags = (content.match(/#\w+/g) || []).join(' ');
+    const hashtagsDiv = document.createElement('div');
+    hashtagsDiv.classList.add('post-hashtags');
+    hashtagsDiv.textContent = hashtags;
+
+    const onlineTag = document.createElement('div');
+    onlineTag.classList.add('post-online-tag');
+    onlineTag.textContent = 'Online';
+
+    post.appendChild(typeTag);
+    post.appendChild(contentTag);
+    post.appendChild(hashtagsDiv);
+    post.appendChild(onlineTag);
+
+    feed.prepend(post);
+  }
+</script>
+
+</body>
+</html>
+<style>
+  body {
+    background-image: url('https://cdn.discordapp.com/attachments/1381220628815806636/1381221038653706280/IMG_7758.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  header {
+    background-image: url('https://cdn.discordapp.com/attachments/1381220628815806636/1381220884592726017/IMG_7791.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    border-bottom: 4px solid #ff99cc;
+  }
+
+  header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.8rem;
+    margin: 0;
+  }
+
+  nav {
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 12px 0;
+    backdrop-filter: blur(6px);
+  }
+
+  nav button {
+    font-family: 'Indie Flower', cursive;
+    background: #ffcce3;
+    border: 2px solid #ff66aa;
+    border-radius: 12px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    color: #4a004a;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  nav button:hover {
+    background: #ff99cc;
+  }
+
+  nav button.active {
+    background: #ff66aa;
+    color: #fff;
+  }
+
+  /* Ajout de Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Indie+Flower&display=swap');
+</style>
+
+<header>
+  <h1>🌈 SunshineShrine Community</h1>
+</header>
+
+<nav>
+  <button id="nav-home" class="active">Home</button>
+  <button id="nav-create">Create</button>
+  <button id="nav-explore">Explore</button>
+  <button id="nav-profile">Profile</button>
+  <button id="nav-settings">Settings</button>
+</nav>
+<div id="themeSelector" style="text-align: center; margin-top: 10px;">
+  <label for="theme" style="font-family: 'Indie Flower'; font-size: 1rem;">🎨 Choose your theme:</label>
+  <select id="theme" onchange="changeTheme()" style="padding: 6px 10px; border-radius: 8px; font-family: 'Indie Flower'; margin-left: 6px;">
+    <option value="cutecore">🌸 Cutecore</option>
+    <option value="dark">🌙 Dark Mode</option>
+    <option value="dreamcore">🌈 Dreamcore</option>
+  </select>
+</div>
+<script>
+  function changeTheme() {
+    const theme = document.getElementById('theme').value;
+    const body = document.body;
+    const header = document.querySelector('header');
+    const nav = document.querySelector('nav');
+    
+    // Reset styles
+    body.style = "";
+    header.style = "";
+    nav.style = "";
+
+    switch (theme) {
+      case "cutecore":
+        body.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1381220628815806636/1381221038653706280/IMG_7758.jpg')";
+        body.style.backgroundSize = "cover";
+        header.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1381220628815806636/1381220884592726017/IMG_7791.jpg')";
+        nav.style.background = "rgba(255,255,255,0.8)";
+        break;
+      case "dark":
+        body.style.backgroundColor = "#0d0d0d";
+        body.style.color = "#ffffff";
+        header.style.backgroundColor = "#1a1a1a";
+        nav.style.background = "#262626";
+        break;
+      case "dreamcore":
+        body.style.backgroundImage = "url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80')";
+        body.style.backgroundSize = "cover";
+        header.style.backgroundImage = "url('https://images.unsplash.com/photo-1603015472598-56b76b3bb5d6?auto=format&fit=crop&w=1600&q=80')";
+        nav.style.background = "rgba(230,245,255,0.8)";
+        break;
+    }
+
+    body.style.backgroundAttachment = "fixed";
+    body.style.backgroundPosition = "center center";
+  }
+</script>
+<script>
+  // Fonction pour appliquer le thème
+  function applyTheme(theme) {
+    const body = document.body;
+    const header = document.querySelector('header');
+    const nav = document.querySelector('nav');
+
+    // Reset styles
+    body.style = "";
+    header.style = "";
+    nav.style = "";
+
+    switch (theme) {
+      case "cutecore":
+        body.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1381220628815806636/1381221038653706280/IMG_7758.jpg')";
+        body.style.backgroundSize = "cover";
+        header.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1381220628815806636/1381220884592726017/IMG_7791.jpg')";
+        nav.style.background = "rgba(255,255,255,0.8)";
+        break;
+      case "dark":
+        body.style.backgroundColor = "#0d0d0d";
+        body.style.color = "#ffffff";
+        header.style.backgroundColor = "#1a1a1a";
+        nav.style.background = "#262626";
+        break;
+      case "dreamcore":
+        body.style.backgroundImage = "url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80')";
+        body.style.backgroundSize = "cover";
+        header.style.backgroundImage = "url('https://images.unsplash.com/photo-1603015472598-56b76b3bb5d6?auto=format&fit=crop&w=1600&q=80')";
+        nav.style.background = "rgba(230,245,255,0.8)";
+        break;
+    }
+
+    body.style.backgroundAttachment = "fixed";
+    body.style.backgroundPosition = "center center";
+  }
+
+  // Quand on change de thème
+  function changeTheme() {
+    const theme = document.getElementById('theme').value;
+    localStorage.setItem('selectedTheme', theme); // Save in local storage
+    applyTheme(theme);
+  }
+
+  // Quand la page charge, appliquer le thème sauvegardé
+  window.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('selectedTheme') || 'cutecore'; // Default = cutecore
+    document.getElementById('theme').value = savedTheme;
+    applyTheme(savedTheme);
+  });
+</script>
+<style>
+  #theme-selector-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    font-family: 'Comic Sans MS', cursive;
+    animation: floaty 4s ease-in-out infinite;
+  }
+
+  @keyframes floaty {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+  }
+
+  #theme-selector-container select {
+    border: none;
+    background-color: #ffe0f0;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  #theme-selector-container select:hover {
+    background-color: #ffd6eb;
+  }
+
+  #theme-selector-container label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #444;
+  }
+</style>
+<div id="theme-selector-container">
+  <label for="theme">🌈 Theme:</label>
+  <select id="theme" onchange="changeTheme()">
+    <option value="cutecore">Cutecore</option>
+    <option value="dark">Dark</option>
+    <option value="dreamcore">Dreamcore</option>
+  </select>
+</div>
+<script>
+  function applyTheme(theme) {
+    const body = document.body;
+    const header = document.querySelector('header');
+    const nav = document.querySelector('nav');
+
+    body.style = "";
+    header && (header.style = "");
+    nav && (nav.style = "");
+
+    switch (theme) {
+      case "cutecore":
+        body.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1381220628815806636/1381221038653706280/IMG_7758.jpg')";
+        body.style.backgroundSize = "cover";
+        body.style.backgroundAttachment = "fixed";
+        body.style.backgroundPosition = "center";
+        header && (header.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/1381220628815806636/1381220884592726017/IMG_7791.jpg')");
+        nav && (nav.style.background = "rgba(255,255,255,0.8)");
+        break;
+      case "dark":
+        body.style.backgroundColor = "#111";
+        body.style.color = "#fff";
+        header && (header.style.backgroundColor = "#222");
+        nav && (nav.style.background = "#333");
+        break;
+      case "dreamcore":
+        body.style.backgroundImage = "url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80')";
+        body.style.backgroundSize = "cover";
+        body.style.backgroundAttachment = "fixed";
+        header && (header.style.backgroundImage = "url('https://images.unsplash.com/photo-1603015472598-56b76b3bb5d6?auto=format&fit=crop&w=1600&q=80')");
+        nav && (nav.style.background = "rgba(230,245,255,0.8)");
+        break;
+    }
+  }
+
+  function changeTheme() {
+    const theme = document.getElementById('theme').value;
+    localStorage.setItem('selectedTheme', theme);
+    applyTheme(theme);
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('selectedTheme') || 'cutecore';
+    document.getElementById('theme').value = savedTheme;
+    applyTheme(savedTheme);
+  });
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MagicalFanFeed | Part 1 - Feed & Notifications</title>
+<style>
+  /* Reset */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    background: #fdf6ff;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  /* HEADER */
+  header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    z-index: 100;
+  }
+  header .logo {
+    font-weight: 900;
+    font-size: 1.6rem;
+    color: #7b3fe4;
+    letter-spacing: 0.04em;
+    user-select: none;
+  }
+  header .notif {
+    position: relative;
+    cursor: pointer;
+  }
+  header .notif img {
+    width: 28px;
+    filter: drop-shadow(0 0 1px #7b3fe4);
+  }
+  header .notif-badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background: #e33f8c;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-weight: 700;
+    user-select: none;
+  }
+  /* Notification dropdown */
+  .notif-dropdown {
+    position: absolute;
+    top: 36px;
+    right: 0;
+    width: 280px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(123 63 228 / 0.25);
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+    flex-direction: column;
+    font-size: 14px;
+    z-index: 150;
+  }
+  .notif-dropdown.active {
+    display: flex;
+  }
+  .notif-dropdown .notif-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 14px;
+    transition: background-color 0.2s;
+  }
+  .notif-dropdown .notif-item:hover {
+    background: #f3e7ff;
+  }
+  /* Feed container */
+  main.feed {
+    flex-grow: 1;
+    max-width: 600px;
+    margin: 20px auto;
+    padding-bottom: 80px; /* space for post button */
+    width: 95vw;
+  }
+  /* Single post */
+  .post {
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 6px 12px rgb(123 63 228 / 0.1);
+    padding: 16px 20px;
+    margin-bottom: 18px;
+    word-break: break-word;
+  }
+  .post-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .post-header .avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #7b3fe4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    user-select: none;
+  }
+  .post-header .username {
+    font-weight: 700;
+    color: #5a1172;
+  }
+  .post-content {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    white-space: pre-wrap;
+  }
+  /* Images in posts */
+  .post-content img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 8px;
+  }
+  /* Poll style */
+  .poll {
+    background: #f9f5ff;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+  .poll-option {
+    margin: 6px 0;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: #ddd6ff;
+    transition: background-color 0.25s;
+  }
+  .poll-option:hover {
+    background: #7b3fe4;
+    color: white;
+  }
+  /* Post button bottom-left */
+  #post-btn {
+    position: fixed;
+    bottom: 22px;
+    left: 22px;
+    background: #7b3fe4;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    box-shadow: 0 8px 16px rgb(123 63 228 / 0.4);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 110;
+    user-select: none;
+    transition: background-color 0.3s;
+  }
+  #post-btn:hover {
+    background: #a159f5;
+  }
+  /* Post modal */
+  #post-modal {
+    position: fixed;
+    inset: 0;
+    background: rgb(0 0 0 / 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+  }
+  #post-modal.active {
+    display: flex;
+  }
+  #post-modal .modal-content {
+    background: white;
+    border-radius: 16px;
+    max-width: 400px;
+    width: 90vw;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgb(123 63 228 / 0.35);
+  }
+  #post-modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7b3fe4;
+    font-weight: 900;
+  }
+  #post-modal label {
+    font-weight: 700;
+    color: #5a1172;
+    display: block;
+    margin: 10px 0 6px;
+  }
+  #post-modal input[type="text"],
+  #post-modal textarea,
+  #post-modal select {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1.5px solid #ddd;
+    font-size: 1rem;
+    resize: vertical;
+  }
+  #post-modal textarea {
+    min-height: 80px;
+  }
+  #post-modal button {
+    margin-top: 14px;
+    background: #7b3fe4;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s;
+  }
+  #post-modal button:hover {
+    background: #a159f5;
+  }
+  /* Bottom right cutecore gif */
+  #cutecore-gif {
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    width: 90px;
+    height: 90px;
+    pointer-events: none;
+    user-select: none;
+    border-radius: 50%;
+    box-shadow: 0 0 18px #e33f8c99;
+    overflow: hidden;
+  }
+  #cutecore-gif img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">MagicalFanFeed</div>
+  <div class="notif" id="notif-btn" tabindex="0" aria-label="Notifications">
+    <img src="https://cdn-icons-png.flaticon.com/512/1827/1827349.png" alt="bell" />
+    <div class="notif-badge" id="notif-count">3</div>
+    <div class="notif-dropdown" id="notif-dropdown">
+      <div class="notif-item">✨ Alice liked your post!</div>
+      <div class="notif-item">💬 Bob commented: "So cute!"</div>
+      <div class="notif-item">👥 Clara started following you.</div>
+    </div>
+  </div>
+</header>
+
+<main class="feed" id="feed">
+  <!-- Posts get appended here -->
+</main>
+
+<button id="post-btn" title="Create a Post">+</button>
+
+<div id="post-modal" role="dialog" aria-modal="true" aria-labelledby="post-modal-title">
+  <div class="modal-content">
+    <h2 id="post-modal-title">Create a Post</h2>
+    <label for="post-type">Select Post Type</label>
+    <select id="post-type">
+      <option value="text">Text</option>
+      <option value="image">Image URL</option>
+      <option value="poll">Poll</option>
+    </select>
+    <label for="post-content" id="post-content-label">Your Text</label>
+    <textarea id="post-content" placeholder="Write your post here..."></textarea>
+    <div id="poll-options-container" style="display:none;">
+      <label for="poll-options">Poll Options (comma separated)</label>
+      <input type="text" id="poll-options" placeholder="Option 1, Option 2, Option 3" />
+    </div>
+    <button id="submit-post">Post</button>
+  </div>
+</div>
+
+<div id="cutecore-gif" aria-hidden="true">
+  <img src="https://i.pinimg.com/originals/ba/6e/2e/ba6e2e2e01052a5a2d138d3c7e2b5f38.gif" alt="Cute anime gif" />
+</div>
+
+<script>
+  const notifBtn = document.getElementById('notif-btn');
+  const notifDropdown = document.getElementById('notif-dropdown');
+  const notifCount = document.getElementById('notif-count');
+  const feed = document.getElementById('feed');
+  const postBtn = document.getElementById('post-btn');
+  const postModal = document.getElementById('post-modal');
+  const postTypeSelect = document.getElementById('post-type');
+  const postContent = document.getElementById('post-content');
+  const pollOptionsContainer = document.getElementById('poll-options-container');
+  const pollOptionsInput = document.getElementById('poll-options');
+  const submitPostBtn = document.getElementById('submit-post');
+
+  // Sample user info (change to your own data or dynamic in future)
+  const currentUser = {
+    username: 'Yukino',
+    avatarLetter: 'Y'
+  };
+
+  // Sample initial posts (demo)
+  let posts = [
+    {
+      id: 1,
+      user: 'Alice',
+      avatarLetter: 'A',
+      type: 'text',
+      content: 'Just finished watching MHA! Bakugo is so extra lol 😂',
+      createdAt: Date.now() - 100000,
+    },
+    {
+      id: 2,
+      user: 'Bob',
+      avatarLetter: 'B',
+      type: 'image',
+      content: 'https://i.pinimg.com/originals/c2/65/40/c26540873f6c6ca6a29a381bfebf6161.jpg',
+      createdAt: Date.now() - 50000,
+    },
+    {
+      id: 3,
+      user: 'Clara',
+      avatarLetter: 'C',
+      type: 'poll',
+      content: 'Who is the best MHA character?',
+      pollOptions: ['Deku', 'Bakugo', 'Todoroki', 'Uraraka'],
+      createdAt: Date.now() - 20000,
+      votes: {}
+    }
+  ];
+
+  // Render posts on the feed
+  function renderPosts() {
+    feed.innerHTML = '';
+    posts.slice().reverse().forEach(post => {
+      const postEl = document.createElement('article');
+      postEl.classList.add('post');
+
+      // Post header
+      const headerEl = document.createElement('div');
+      headerEl.className = 'post-header';
+      headerEl.innerHTML = `
+        <div class="avatar">${post.avatarLetter}</div>
+        <div class="username">${post.user}</div>
+      `;
+
+      // Post content
+      let contentEl = document.createElement('div');
+      contentEl.className = 'post-content';
+
+      if (post.type === 'text') {
+        contentEl.textContent = post.content;
+      } else if (post.type === 'image') {
+        const img = document.createElement('img');
+        img.src = post.content;
+        img.alt = 'Post image';
+        contentEl.appendChild(img);
+      } else if (post.type === 'poll') {
+        const pollDiv = document.createElement('div');
+        pollDiv.className = 'poll';
+        pollDiv.textContent = post.content;
+        pollDiv.style.fontWeight = '700';
+
+        // Options
+        post.pollOptions.forEach((opt, idx) => {
+          const optDiv = document.createElement('div');
+          optDiv.className = 'poll-option';
+          optDiv.textContent = opt;
+          optDiv.addEventListener('click', () => {
+            if (!post.votes[currentUser.username]) post.votes[currentUser.username] = idx;
+            else if (post.votes[currentUser.username] === idx) return; // already voted for this option
+            else post.votes[currentUser.username] = idx;
+
+            alert(`You voted for: ${opt}`);
+            // In real app, update backend & refresh votes count
+          });
+          pollDiv.appendChild(optDiv);
+        });
+        contentEl.appendChild(pollDiv);
+      }
+
+      postEl.appendChild(headerEl);
+      postEl.appendChild(contentEl);
+      feed.appendChild(postEl);
+    });
+  }
+
+  renderPosts();
+
+  // Notification toggle
+  notifBtn.addEventListener('click', e => {
+    notifDropdown.classList.toggle('active');
+  });
+
+  // Close notif dropdown if click outside
+  document.addEventListener('click', e => {
+    if (!notifBtn.contains(e.target)) {
+      notifDropdown.classList.remove('active');
+    }
+  });
+
+  // Post modal open
+  postBtn.addEventListener('click', () => {
+    postModal.classList.add('active');
+    // Reset form
+    postTypeSelect.value = 'text';
+    postContent.value = '';
+    pollOptionsContainer.style.display = 'none';
+    pollOptionsInput.value = '';
+    postContent.placeholder = 'Write your post here...';
+  });
+
+  // Change post form depending on type
+  postTypeSelect.addEventListener('change', () => {
+    if (postTypeSelect.value === 'poll') {
+      pollOptionsContainer.style.display = 'block';
+      postContent.style.display = 'none';
+    } else {
+      pollOptionsContainer.style.display = 'none';
+      postContent.style.display = 'block';
+      postContent.placeholder = postTypeSelect.value === 'image' ? 'Paste image URL here...' : 'Write your post here...';
+    }
+  });
+
+  // Submit post handler
+  submitPostBtn.addEventListener('click', () => {
+    const type = postTypeSelect.value;
+    let content = postContent.value.trim();
+    if (type === 'poll') {
+      const pollOptsRaw = pollOptionsInput.value.trim();
+      if (!content) {
+        alert('Poll question is required!');
+        return;
+      }
+      if (!pollOptsRaw) {
+        alert('Poll options are required!');
+        return;
+      }
+      const options = pollOptsRaw.split(',').map(o => o.trim()).filter(o => o.length);
+      if (options.length < 2) {
+        alert('Please enter at least 2 poll options!');
+        return;
+      }
+      posts.push({
+        id: posts.length + 1,
+        user: currentUser.username,
+        avatarLetter: currentUser.avatarLetter,
+        type: 'poll',
+        content,
+        pollOptions: options,
+        createdAt: Date.now(),
+        votes: {}
+      });
+    } else {
+      if (!content) {
+        alert('Post content cannot be empty!');
+        return;
+      }
+      posts.push({
+        id: posts.length + 1,
+        user: currentUser.username,
+        avatarLetter: currentUser.avatarLetter,
+        type,
+        content,
+        createdAt: Date.now()
+      });
+    }
+    renderPosts();
+    postModal.classList.remove('active');
+  });
+
+  // Close modal on outside click
+  postModal.addEventListener('click', e => {
+    if (e.target === postModal) {
+      postModal.classList.remove('active');
+    }
+  });
+</script>
+
+</body>
+</html>
+<style>
+  /* Basic profile card */
+  .profile-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 220px;
+    margin: 10px;
+    background: #f9f9f9;
+  }
+  .avatar {
+    background: #888;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .follow-btn {
+    background: #2978f0;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .chat-window {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 0.9rem;
+  }
+  .chat-input {
+    display: flex;
+    border-top: 1px solid #ccc;
+  }
+  .chat-input input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+  }
+  .chat-input button {
+    background: #2978f0;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+</style>
+
+<div id="users-container"></div>
+
+<div id="chat-window" class="chat-window" style="display:none;">
+  <div id="chat-header" style="padding:10px; font-weight:bold; border-bottom:1px solid #ccc;"></div>
+  <div id="chat-messages" class="chat-messages"></div>
+  <div class="chat-input">
+    <input id="chat-input" placeholder="Type a message..."/>
+    <button id="chat-send">Send</button>
+  </div>
+</div>
+
+<script>
+  const users = [
+    { username: 'Yukino', bio: "I'm clumsy and love MHA :3", avatarLetter: 'Y' },
+    { username: 'BakugoSis', bio: "Protective AF and fiery like my bro", avatarLetter: 'B' },
+    { username: 'Alycia_miaky', bio: "Anime creator & MHA stan", avatarLetter: 'A' },
+  ];
+
+  let currentChatUser = null;
+  let chats = {}; // Store messages per username
+
+  const usersContainer = document.getElementById('users-container');
+  const chatWindow = document.getElementById('chat-window');
+  const chatHeader = document.getElementById('chat-header');
+  const chatMessages = document.getElementById('chat-messages');
+  const chatInput = document.getElementById('chat-input');
+  const chatSendBtn = document.getElementById('chat-send');
+
+  function renderProfiles() {
+    usersContainer.innerHTML = '';
+    users.forEach(user => {
+      const card = document.createElement('div');
+      card.className = 'profile-card';
+
+      card.innerHTML = `
+        <div class="avatar">${user.avatarLetter}</div>
+        <div><strong>${user.username}</strong></div>
+        <p>${user.bio}</p>
+        <button class="follow-btn">Follow</button>
+        <button class="chat-btn" style="margin-top:5px;">Chat</button>
+      `;
+
+      card.querySelector('.chat-btn').addEventListener('click', () => {
+        openChat(user.username);
+      });
+
+      usersContainer.appendChild(card);
+    });
+  }
+
+  function openChat(username) {
+    currentChatUser = username;
+    chatHeader.textContent = `Chat with ${username}`;
+    chatWindow.style.display = 'flex';
+    renderMessages();
+  }
+
+  function renderMessages() {
+    chatMessages.innerHTML = '';
+    if (!chats[currentChatUser]) chats[currentChatUser] = [];
+
+    chats[currentChatUser].forEach(msg => {
+      const msgDiv = document.createElement('div');
+      msgDiv.textContent = `[${msg.time}] ${msg.from}: ${msg.text}`;
+      chatMessages.appendChild(msgDiv);
+    });
+
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  chatSendBtn.addEventListener('click', () => {
+    if (!chatInput.value.trim()) return;
+
+    const now = new Date();
+    const time = now.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+    if (!chats[currentChatUser]) chats[currentChatUser] = [];
+
+    chats[currentChatUser].push({
+      from: 'You',
+      text: chatInput.value.trim(),
+      time,
+    });
+    chatInput.value = '';
+    renderMessages();
+  });
+
+  renderProfiles();
+</script>
